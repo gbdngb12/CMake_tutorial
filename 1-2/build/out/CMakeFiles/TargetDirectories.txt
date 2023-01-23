@@ -1,0 +1,2 @@
+/home/dong/Downloads/CMake_tutorial/1-2/build/out/CMakeFiles/edit_cache.dir
+/home/dong/Downloads/CMake_tutorial/1-2/build/out/CMakeFiles/rebuild_cache.dir
