@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testsome.dir/main.cpp.o -o testsome   -L/root/CMake_tutorial/2-3/../2-2/build  -Wl,-rpath,/root/CMake_tutorial/2-3/../2-2/build -lmymath 
