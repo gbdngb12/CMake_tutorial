@@ -1,0 +1,7 @@
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/newmath.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/edit_cache.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/rebuild_cache.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/list_install_components.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/install.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/install/local.dir
+/root/CMake_tutorial/2-4/lib/build/CMakeFiles/install/strip.dir

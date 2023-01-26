@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnewmath.a CMakeFiles/newmath.dir/adder.cpp.o
+/usr/bin/ranlib libnewmath.a
