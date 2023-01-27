@@ -4,9 +4,10 @@ project(output VERSION 1.0)
 
 configure_file(outputConfig.h.in outputConfig.h)
 
-target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
-
 add_executable(${PROJECT_NAME} main.cpp)
+
+#header파일을 위해 설정
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
 
 add_subdirectory(submodule)
 
