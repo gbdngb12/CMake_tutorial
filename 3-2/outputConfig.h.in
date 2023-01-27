@@ -1,0 +1,2 @@
+#define output_VERSION_MAJOR @output_VERSION_MAJOR@ 
+#define output_VERSION_MINOR @output_VERSION_MINOR@
