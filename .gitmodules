@@ -10,3 +10,6 @@
 [submodule "5-1/submodule"]
 	path = 5-1/submodule
 	url = https://github.com/glfw/glfw.git
+[submodule "5-2/submodule"]
+	path = 5-2/submodule
+	url = https://github.com/glfw/glfw.git
