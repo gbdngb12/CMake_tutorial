@@ -5,10 +5,10 @@ project(output VERSION 1.0)
 # 옵션 설정
 option(USE_MYPRINT "A Simple Library Print username" ON)
 if(USE_MYPRINT)
-    add_subdirectory(MyPrint)
+    add_subdirectory("MyPrint")
     list(APPEND EXTRA_LIB_DIRS "MyPrint")
     list(APPEND EXTRA_INCLUDE_DIRS "${PROJECT_SOURCE_DIR}/MyPrint")
-    list(APPEND EXTRA_LINKS myprint)
+    list(APPEND EXTRA_LINKS myprint) #Project Name
     #target_include_directories(${PROJECT_NAME}
     #    PUBLIC myprint
     #)
@@ -23,7 +23,6 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 #header파일을 위해 설정
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
-
 
 add_subdirectory(submodule)
 
